@@ -1,5 +1,11 @@
 import '@/assets/styles/globals.css'
 
+export const metadata  = {
+    title: 'grancasa',
+    keywords: 'rent, buy, sell, house, apartment, real estate',
+    description: 'find the prefect place to live'
+}
+
 const MainLayout = ( { children }) => {
   return (
     <html>
@@ -11,3 +17,5 @@ const MainLayout = ( { children }) => {
 }
 
 export default MainLayout
+
+
